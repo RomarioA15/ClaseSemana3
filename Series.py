@@ -23,3 +23,11 @@ def fibonacci(n):
         l.append(b)
     return l
     
+#s Serie factorial
+
+def factorial(n):
+    if n == 0:
+        return 1
+    else:
+        return n * factorial(n-1)
+print(factorial(5))
